@@ -1,12 +1,12 @@
 --Settings--
 getgenv().ESP = {
-    TextColor = Color3.fromRGB(255,255,255),
-    EquippedColor = Color3.fromRGB(255,255,255),
-    DistanceColor = Color3.fromRGB(255,255,255),
-    TracerColor = Color3.fromRGB(255,255,255),
+   TextColor = Color3.fromRGB(98, 37, 209),
+    EquippedColor = Color3.fromRGB(98, 37, 209),
+    DistanceColor = Color3.fromRGB(98, 37, 209),
+    TracerColor = Color3.fromRGB(98, 37, 209),
     LowerHealthColor = Color3.fromRGB(0,0,0),
-    HigherHealthColor = Color3.fromRGB(133, 87, 242),
-    Color = Color3.fromRGB(255,255,255),
+    HigherHealthColor = Color3.fromRGB(98, 37, 209),
+    Color = Color3.fromRGB(98, 37, 209),
     HealthBar = false,
     Enabled = false,
     Distance = false,
