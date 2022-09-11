@@ -1,4 +1,3 @@
---Settings--
 getgenv().ESP = {
    TextColor = Color3.fromRGB(98, 37, 209),
     EquippedColor = Color3.fromRGB(98, 37, 209),
