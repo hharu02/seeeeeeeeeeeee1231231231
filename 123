@@ -1,34 +1,3 @@
---Settings--
-getgenv().ESP = {
-    TextColor = Color3.fromRGB(255,255,255),
-    EquippedColor = Color3.fromRGB(255,255,255),
-    DistanceColor = Color3.fromRGB(255,255,255),
-    TracerColor = Color3.fromRGB(255,255,255),
-    LowerHealthColor = Color3.fromRGB(0,0,0),
-    HigherHealthColor = Color3.fromRGB(133, 87, 242),
-    Color = Color3.fromRGB(255,255,255),
-    HealthBar = false,
-    Enabled = false,
-    Distance = false,
-    Health = false,
-    Equipped = false,
-    Boxes = false,
-    BoxShift = CFrame.new(0,-.3,0),
-	BoxSize = Vector3.new(4,6,0),
-    FaceCamera = true,
-    Names = false,
-    TeamColor = true,
-    Thickness = 0.8,
-    AttachShift = 1,
-    TeamMates = true,
-    Players = false,
-    Tracers = false,
-    Objects = setmetatable({}, {__mode="kv"}),
-    Overrides = {},
-    MaxShownDistance = 200,
-
-}
-
 --Declarations--
 local cam = workspace.CurrentCamera
 local plrs = game:GetService("Players")
@@ -498,4 +467,4 @@ game:GetService("RunService").RenderStepped:Connect(function()
     end
 end)
 
-return ESP 
+return ESP
