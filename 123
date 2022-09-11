@@ -18,7 +18,7 @@ getgenv().ESP = {
     FaceCamera = true,
     Names = false,
     TeamColor = true,
-    Thickness = 0.8,
+    Thickness = 1,
     AttachShift = 1,
     TeamMates = true,
     Players = true,
@@ -388,14 +388,14 @@ function ESP:Add(obj, options)
 		Color = ESP.TextColor,
 		Center = true,
 		Outline = true,
-        Size = 14,
+        Size = 20,
         Visible = self.Enabled and self.Names
 	})
 	box.Components["Distance"] = Draw("Text", {
 		Color = ESP.DistanceColor,
 		Center = true,
 		Outline = true,
-        Size = 14,
+        Size = 20,
         Visible = self.Enabled and self.Distance
 	})
 	
@@ -403,7 +403,7 @@ function ESP:Add(obj, options)
 		Color = ESP.EquippedColor,
 		Center = true,
 		Outline = true,
-        Size = 14,
+        Size = 20,
         Visible = self.Enabled and self.Equipped
 	})
 	
